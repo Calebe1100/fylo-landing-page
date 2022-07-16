@@ -1,0 +1,11 @@
+.nav-bar{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .nav-bar-logo{
+        justify-content: flex-start;
+    }
+    .nav-bar-sections{
+        justify-content: flex-end;
+    }
+}
